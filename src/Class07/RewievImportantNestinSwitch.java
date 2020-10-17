@@ -35,7 +35,7 @@ public class RewievImportantNestinSwitch {
 			break;
 
 		default:
-			System.out.println("Invalid");
+			System.out.println("Invalid input");
 
 		}
 
