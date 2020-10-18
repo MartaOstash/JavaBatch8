@@ -1,4 +1,4 @@
-package Class07;
+package com.syntax.class07;
 
 public class TaskOnWhileLoop {
 
