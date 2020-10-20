@@ -10,7 +10,7 @@ public class whileLoop6 {
 			System.out.println(e + " ");
 			e -= 2;
 		}
-		System.out.println("----ANITHER WAY-----");
+		System.out.println("----ANOTHER WAY-----");
 
 		int f = 99;
 		while (f > 0) {
