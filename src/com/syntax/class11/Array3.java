@@ -34,6 +34,13 @@ public class Array3 {
 
 			}
 		}
+		String[] names = new String[5];
+		names[0] = "John";
+		names[1] = "Anna";
+		names[2] = "Michael";
+		names[3] = "Donald";
+		names[4] = "Omar";
+		System.out.println(names.length);
 
 	}
 

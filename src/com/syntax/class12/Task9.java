@@ -1,9 +1,8 @@
-package com.ProjectTasks;
+package com.syntax.class12;
 
-public class Task9Project {
+public class Task9 {
 
 	public static void main(String[] args) {
-
 		String[][] countries = { { "USA", "Canada", "Mexico" }, { "CHily", "Argentina", "Brazil" },
 				{ "Ukraine", "Italy", "France" }, { "Japan", "China", "Thailand" }, { "Nigeria", "Eugypt", "Algeria" }
 
@@ -19,21 +18,16 @@ public class Task9Project {
 
 		System.out.println("========================ENHANCED FOR LOOP=====================================");
 
+		int sum = 0;
 		for (String[] country : countries) {
+
 			for (String name : country) {
-				System.out.println(name);
+				System.out.println(name + " ");
+				sum++;
+
 			}
+			System.out.println();
 		}
-
-		System.out.println("===================TOTAL COUNTRIES STORED=============");
-
-		int x = countries[0].length;
-		int y = countries[1].length;
-		int z = countries[2].length;
-		int w = countries[3].length;
-		int t = countries[4].length;
-
-		int sum = x + y + z + w + t;
 		System.out.println(sum);
 	}
 

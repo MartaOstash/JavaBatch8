@@ -1,5 +1,7 @@
 package com.syntax.class11;
 
+import java.util.Arrays;
+
 public class ProjectTask4MaxAndMInNumbersInArray {
 
 	public static void main(String[] args) {
@@ -23,6 +25,10 @@ public class ProjectTask4MaxAndMInNumbersInArray {
 
 		System.out.println("The largest number from as array is " + max);
 		System.out.println("The smallest number from as array is " + min);
+
+		Arrays.sort(array);
+		System.out.println(array[0] + " min number");
+		System.out.println(array[array.length - 1] + " in number");
 
 	}
 
