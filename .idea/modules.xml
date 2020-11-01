@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/JavaBatch8.iml" filepath="$PROJECT_DIR$/JavaBatch8.iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/REpl.iml" filepath="$PROJECT_DIR$/src/REpl.iml" />
     </modules>
   </component>
 </project>
