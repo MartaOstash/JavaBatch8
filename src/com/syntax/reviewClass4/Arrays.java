@@ -1,4 +1,4 @@
-package com.syntax.reviewClass04;
+package com.syntax.reviewClass4;
 
 public class Arrays {
 
