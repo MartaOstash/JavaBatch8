@@ -1,7 +1,8 @@
 package com.syntax.class20;
 
 public class ChemistryTeacher extends Teacher {
-    public void printChemistry(){
-        System.out.println("My students learn about chemical reactions");
+    boolean hasAPeriodicTablePoster;
+     void print(){
+         System.out.println("From ChemTeacher");
     }
 }

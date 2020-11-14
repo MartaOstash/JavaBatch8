@@ -17,10 +17,6 @@ public class Person {
     //
     Person() {
         System.out.println(" Important lines that must be executed ach time when constructor is created");
-        System.out.println(" Important lines that must be executed ach time when constructor is created");
-        System.out.println(" Important lines that must be executed ach time when constructor is created");
-
-
     }
 
     Person(String name, int age, String phone, double salary) {
@@ -36,7 +32,7 @@ public class Person {
     }
 
 
-    Person(String name, int age, String phone, double salary, char martialStatus, int numberOfKids, String education) {
+    Person(String name, int age, String phone, double salary,String education, char martialStatus, int numberOfKid) {
         this();
         this.education = education;
         this.salary = salary;
@@ -68,6 +64,9 @@ public class Person {
 
         Person person1 = new Person("KhaliqYar", 33, "123456678", 0);
         Person person2=new Person();
+
+        Person person3 =new Person("Taras",31,"123456", 12,"cook",'m',0);
+
     }
 
 

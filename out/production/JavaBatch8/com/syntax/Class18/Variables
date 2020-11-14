@@ -26,7 +26,7 @@ or block or constructors BUT INSIDE a class.
 
 PROPERTIES of INSTANCE VAR:
 1)memory is allocated inside RAM as soon as object of the class is created and
-it stays in the memory unless we're done with teh closing bracket;
+it stays in the memory unless we're done with the closing bracket;
 2)they are highly discouraged because of the waste of the memory;
 
 STATIC VARIABLES-

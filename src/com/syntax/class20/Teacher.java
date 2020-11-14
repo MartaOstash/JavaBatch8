@@ -1,23 +1,34 @@
 package com.syntax.class20;
 
 public class Teacher {
-    int yearOfExperience;
-        String name;
-        String subject;
-        Teacher(String name,int yearOfExperience,String subject){
-            this.name=name;
-            this.yearOfExperience=yearOfExperience;
-            this.subject=subject;
-        }
-        Teacher(){
-        }
-        public void printTeacher(String name, int yearOfExperience,String subject){
-            System.out.println("\nMy name is "+name+",\nI am a "+subject+" teacher with "+yearOfExperience+" years of experience");
-        }
+    String name;
+    int experience;
+    double salary;
+    String degree;
+    String education;
+    String subject;
+
+    Teacher(String name, int experience, String degree, String subject) {
+        this.name = name;
+        this.experience = experience;
+        this.degree = degree;
+        this.subject = subject;
     }
 
+    Teacher(String name, int experience, String degree, String subject, double salary, String education) {
+        this(name, experience, degree, subject);
+        this.salary = salary;
+        this.education = education;
+    }
 
+    public Teacher() {
+    }
 
+    void print() {
+        System.out.println("The teacher " + name + " has " + experience + " years experience of teaching and " + degree + " degree");
+    }
+
+}
 
 
 

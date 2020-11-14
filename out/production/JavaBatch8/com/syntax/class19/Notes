@@ -8,7 +8,7 @@ Public
 Access modifiers are used to control teh access to our class members
 Like fields and methods
 
-Private access modifier is the most restricted one.
+PRIVATE access modifier is the most restricted one.
 It allows to access our class members like method and instance
 var/fields/properties from the same class only.
 
